@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="地区"
+            android:textColor="#850" />
+
+        <com.example.jzg.androiderp.table.CHScrollView2
+            android:id="@+id/item_scroll_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="城市"
+                    android:textColor="#850" />
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="收车价"
+                    android:textColor="#850" />
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="B区3"
+                    android:textColor="#850" />
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="售车价"
+                    android:textColor="#850" />
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="大区经理"
+                    android:textColor="#850" />
+
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="发车地区"
+                    android:textColor="#850" />
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="B区6"
+                    android:textColor="#850" />
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="B区6"
+                    android:textColor="#850" />
+                <TextView
+                    android:layout_width="100dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="B区6"
+                    android:textColor="#850" />
+            </LinearLayout>
+        </com.example.jzg.androiderp.table.CHScrollView2>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/hlistview_scroll_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PG_Edit_Base_SDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PG_Edit_SDK/libs/PG_Edit_Base_SDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

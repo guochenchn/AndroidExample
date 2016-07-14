@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jzg.androiderp">
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application
+        android:name=".app.AppContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme">
+        <meta-data
+            android:name="EDIT_SDK_KEY"
+            android:value="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" />
+
+        <meta-data
+            android:name="BD_APP_ID"
+            android:value="ea8d04692735bc1f" />
+        <meta-data
+            android:name="BD_APP_SECRET"
+            android:value="vCGG9QZ94tcGxTjangCc_b_VuXwmfGd2" />
+
+        <!--数据库的名字将在/data/data/{你的应用包名}/databases下创建对应的文件-->
+        <meta-data
+            android:name="DATABASE"
+            android:value="sugar_example.db" />
+        <!--数据库的版本号-->
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <!--是否允许SugarORM记录log-->
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <!--创建数据库表对应的Bean所在的包的路径-->
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.jzg.androiderp.vo" />
+
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.LoadPicActivity"></activity>
+        <activity android:name=".ui.DetailsActivity"></activity>
+        <activity android:name=".ui.CamaeraActivity"></activity>
+        <activity android:name=".ui.ChoosePicActivity"></activity>
+        <activity android:name=".ui.RxJavaActivity"></activity>
+        <activity android:name=".ui.PopActivity"></activity>
+        <activity android:name=".ui.TableActivity"></activity>
+        <activity android:name=".ui.HListViewActivity"></activity>
+        <activity
+            android:name=".ui.CollapsingtoolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ui.RxBindingActivity"></activity>
+        <activity
+            android:name=".ui.CoordinatorLayoutActivity"
+            android:parentActivityName=".ui.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="us.pinguo.edit.sdk.PGEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <service
+            android:name="us.pinguo.bigdata.BDUpService"
+            android:process=":bdupload"></service>
+        <receiver android:name="us.pinguo.bigdata.BDAlarmReceiver">
+            <intent-filter>
+                <action android:name="bd_alarm" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

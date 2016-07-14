@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_hlistview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_gray"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="50dip"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/item_titlev"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="C区"
+        android:textColor="@color/black"/>
+
+    <com.example.jzg.androiderp.table.CHScrollView2
+        android:id="@+id/item_chscroll_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/item_datav1"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/item_datav2"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/item_datav3"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/item_datav4"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/item_datav5"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/item_datav6"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/item_datav7"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/item_datav8"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:focusable="false"
+                android:gravity="center"
+                android:textColor="@color/black_font"/>
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </com.example.jzg.androiderp.table.CHScrollView2>
+</LinearLayout>
