@@ -35,6 +35,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     Button button8;
     @BindView(R.id.button9)
     Button button9;
+    @BindView(R.id.button10)
+    Button button10;
 
 
     @Override
@@ -47,6 +49,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
     private void initCander() {
+        Calendar c = Calendar.getInstance();
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH) + 1;
         Calendar nextYear = Calendar.getInstance();
         nextYear.add(Calendar.YEAR, 1);
 
@@ -57,7 +62,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
 
-    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8,R.id.button9})
+    @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5,
+            R.id.button6, R.id.button7, R.id.button8, R.id.button9,R.id.button10})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button1:
@@ -95,6 +101,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.button9:
                 Intent intent8 = new Intent(MainActivity.this, CoordinatorLayoutActivity.class);
                 startActivity(intent8);
+                break;
+            case R.id.button10:
+                Intent intent9 = new Intent(MainActivity.this, TableActivity.class);
+                startActivity(intent9);
                 break;
         }
     }

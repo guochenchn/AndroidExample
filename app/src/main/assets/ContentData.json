@@ -1,0 +1,686 @@
+{
+    "Data": [
+        {
+            "Name": "pgs",
+            "CityName": "重庆",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "北京评估师主管",
+            "CityName": "北京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "常华",
+            "CityName": "临沂",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "陈雪警",
+            "CityName": "沈阳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "成都-陈诚",
+            "CityName": "成都",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "冯中帅",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "冯中帅PG2",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 6,
+            "SignCount": 0
+        },
+        {
+            "Name": "谷黎明",
+            "CityName": "无锡",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "广州张景祥",
+            "CityName": "广州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "郝红刚",
+            "CityName": "太原",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "胡波",
+            "CityName": "深圳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "黄平",
+            "CityName": "厦门",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "雷鹏",
+            "CityName": "遵义",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "雷鹏",
+            "CityName": "贵阳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "黎锦杨",
+            "CityName": "广州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "李凯",
+            "CityName": "济南",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "李赞PG1",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 1,
+            "SignCount": 1
+        },
+        {
+            "Name": "李振峰",
+            "CityName": "济宁",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "林谷",
+            "CityName": "昆明",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "林海军",
+            "CityName": "深圳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "林霖",
+            "CityName": "大连",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "林芝评估师",
+            "CityName": "林芝",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "临沂评估师2",
+            "CityName": "临沂",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "刘陈华",
+            "CityName": "上海",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "刘富利",
+            "CityName": "天津",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "刘佩宇",
+            "CityName": "沈阳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "刘锐",
+            "CityName": "杭州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "莫继权",
+            "CityName": "深圳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "宁夏评估师1",
+            "CityName": "银川",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "钱吧",
+            "CityName": "青岛",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "饶天佑",
+            "CityName": "东莞",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "沙延成",
+            "CityName": "大连",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "上海永伦",
+            "CityName": "北京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "石磊",
+            "CityName": "西安",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王波",
+            "CityName": "成都",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王超",
+            "CityName": "南京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王东",
+            "CityName": "北京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王茂田",
+            "CityName": "杭州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王松",
+            "CityName": "青岛",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "王文州",
+            "CityName": "太原",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "魏星",
+            "CityName": "上海",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "温小春",
+            "CityName": "青岛",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "乌鲁木齐评估师",
+            "CityName": "乌鲁木齐",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "吴夺",
+            "CityName": "长春",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "伍昊",
+            "CityName": "重庆",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "武汉评估师3",
+            "CityName": "哈尔滨",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "武汉评估师3",
+            "CityName": "武汉",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "西安评估师1",
+            "CityName": "西安",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "西安评估师2",
+            "CityName": "西安",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "熊永成1",
+            "CityName": "武汉",
+            "SixCount": 0,
+            "EighteenCount": 1,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 4,
+            "SignCount": 0
+        },
+        {
+            "Name": "杨波",
+            "CityName": "济南",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "杨东2",
+            "CityName": "武汉",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "杨东伟",
+            "CityName": "宁波",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "姚盛环",
+            "CityName": "石家庄",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "余处处",
+            "CityName": "福州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "禹瑞朝",
+            "CityName": "北京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "喻前",
+            "CityName": "长沙",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张栋",
+            "CityName": "潍坊",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张宏威",
+            "CityName": "合肥",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张洪国",
+            "CityName": "哈尔滨",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张磊",
+            "CityName": "洛阳",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张灵通",
+            "CityName": "苏州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张士淼",
+            "CityName": "北京",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张帅",
+            "CityName": "呼和浩特",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "张英杰",
+            "CityName": "西安",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "周波",
+            "CityName": "烟台",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "周翔",
+            "CityName": "合肥",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "遵义评估师2",
+            "CityName": "遵义",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        }
+    ],
+    "status": 100,
+    "msg": "成功"
+}

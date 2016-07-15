@@ -64,8 +64,6 @@ public class loacFragment extends Fragment implements XRecyclerView.LoadingListe
             recyclerview.setAdapter(loadPicAdapter);
             loadPicAdapter.setMyOnItemClickListener(this);
         }
-
-
     }
 
     private void initData() {

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--第一行布局-->
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0.5px"
+            android:layout_height="fill_parent"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_item"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:background="@color/DarkGray"
+            android:focusable="false"
+            android:gravity="center"
+            android:lines="3"
+            android:text="姓名"
+            android:textColor="@color/black_font" />
+
+        <com.example.jzg.androiderp.view.MySyncHorizontalScrollView
+            android:id="@+id/rightTitleHorscrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadingEdge="none"
+            android:scrollbars="none">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/DarkGray"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_item1"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:text="城市"
+                    android:textColor="@color/black_font" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_item2"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="领单量"
+                    android:textColor="@color/black_font" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_item3"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="评估6张"
+                    android:textColor="@color/black_font" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_item4"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="评估18张"
+                    android:textColor="@color/black_font" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_item5"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="评估线下"
+                    android:textColor="@color/black_font" />
+
+                <TextView
+                    android:id="@+id/tv_item6"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="签收单量"
+                    android:textColor="@color/black_font" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="fill_parent"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_item7"-->
+                    <!--android:layout_width="100dip"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@color/DarkGray"-->
+                    <!--android:focusable="false"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="昨收"-->
+                    <!--android:textColor="@color/black_font" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="0.5px"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:background="#B8B8B8"-->
+                    <!--android:visibility="visible" />-->
+            </LinearLayout>
+        </com.example.jzg.androiderp.view.MySyncHorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#000000" />
+        <!--第一行布局-->
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/contentScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:scrollbars="none">
+
+        <!--
+             <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+        -->
+
+
+        <!-- 左边listview -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent">
+            <!--名称这列的ListView-->
+            <com.example.jzg.androiderp.view.MyListView
+                android:id="@+id/contentListViewLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#000000"
+                android:dividerHeight="0.5dp" />
+            <!-- 右边listview -->
+
+            <com.example.jzg.androiderp.view.MySyncHorizontalScrollView
+                android:id="@+id/rightContentHorscrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:background="@android:color/transparent"
+                android:scrollbars="none">
+                <!--名称这一列右边的数据的listView-->
+                <com.example.jzg.androiderp.view.MyListView
+                    android:id="@+id/contentListViewRight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent" />
+            </com.example.jzg.androiderp.view.MySyncHorizontalScrollView>
+        </FrameLayout>
+        <!-- </LinearLayout> -->
+
+    </ScrollView>
+</LinearLayout>

@@ -108,6 +108,16 @@
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/loginbtn"
+            android:text="优化表格布局"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
     </LinearLayout>
 </ScrollView>
 
