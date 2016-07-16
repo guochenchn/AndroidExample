@@ -114,10 +114,11 @@ public class NetFragment extends Fragment implements LoadPicAdapter.MyOnItemClic
                 loadPicAdapter.notifyDataSetChanged();
             }
             Data.saveInTx(datas);//把数据存储到数据库
-        } else {
-            ((ViewGroup) xRecyclerview.getParent()).addView(emptyview);
-            xRecyclerview.setEmptyView(emptyview);
         }
+//        else {
+//            ((ViewGroup) xRecyclerview.getParent()).addView(emptyview);
+//            xRecyclerview.setEmptyView(emptyview);
+//        }
     }
 
     /**
@@ -128,7 +129,7 @@ public class NetFragment extends Fragment implements LoadPicAdapter.MyOnItemClic
     @Override
     public void showMoreDatas(List<Data> datas) {
         Toast.makeText(getActivity(), "showMoreDatas", Toast.LENGTH_SHORT).show();
-        if (datas.size() > 0) {
+        if (datas !=null) {
             listDatas.addAll(datas);
             if (loadPicAdapter == null) {
                 loadPicAdapter = new LoadPicAdapter(listDatas, getActivity().getApplicationContext());
@@ -146,7 +147,7 @@ public class NetFragment extends Fragment implements LoadPicAdapter.MyOnItemClic
      */
     @Override
     public void showRefreshDatas(List<Data> datas) {
-        if (datas.size() > 0) {
+        if (datas !=null) {
             listDatas.clear();
             listDatas.addAll(datas);
             if (loadPicAdapter == null) {
@@ -155,16 +156,26 @@ public class NetFragment extends Fragment implements LoadPicAdapter.MyOnItemClic
             } else {
                 loadPicAdapter.notifyDataSetChanged();
             }
-        } else {
-            ((ViewGroup) xRecyclerview.getParent()).addView(emptyview);
-            xRecyclerview.setEmptyView(emptyview);
         }
+//        else {
+//            ((ViewGroup) xRecyclerview.getParent()).addView(emptyview);
+//            xRecyclerview.setEmptyView(emptyview);
+//        }
         xRecyclerview.refreshComplete();//停止下拉刷新
     }
 
     @Override
     public void showError(String error) {
-
+        xRecyclerview.refreshComplete();//停止下拉刷新
+        xRecyclerview.loadMoreComplete();//停止上拉加载
+        listDatas.clear();
+        if (loadPicAdapter == null) {
+            loadPicAdapter = new LoadPicAdapter(listDatas, getActivity().getApplicationContext());
+            xRecyclerview.setAdapter(loadPicAdapter);
+        } else {
+            loadPicAdapter.notifyDataSetChanged();
+        }
+        Toast.makeText(getActivity(), error, Toast.LENGTH_SHORT).show();
     }
 
     @Override

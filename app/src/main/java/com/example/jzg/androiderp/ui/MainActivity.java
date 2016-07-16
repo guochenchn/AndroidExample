@@ -37,6 +37,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     Button button9;
     @BindView(R.id.button10)
     Button button10;
+    @BindView(R.id.button11)
+    Button button11;
 
 
     @Override
@@ -63,7 +65,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
 
     @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5,
-            R.id.button6, R.id.button7, R.id.button8, R.id.button9,R.id.button10})
+            R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10
+    ,R.id.button11})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button1:
@@ -105,6 +108,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.button10:
                 Intent intent9 = new Intent(MainActivity.this, TableActivity.class);
                 startActivity(intent9);
+            case R.id.button11:
+                Intent intent10 = new Intent(MainActivity.this, ToolBarActivity.class);
+                startActivity(intent10);
                 break;
         }
     }

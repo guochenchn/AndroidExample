@@ -55,6 +55,7 @@ public class RxBindingActivity extends BaseActivity {
                 .subscribe(mTextAction);
     }
 
+    //Map转换  将一个对象变成另一个对象
     private void TextMap() {
         Observable.just(mManyWordList)
                 .observeOn(AndroidSchedulers.mainThread())
@@ -87,7 +88,7 @@ public class RxBindingActivity extends BaseActivity {
 
         mFlatMap = new Func1<List<String>, Observable<String>>() {
             @Override
-            public Observable<String> call(List<String> strings) {
+            public Observable<String> call(List<String> strings) {  //第一参数转换前的参数  第二个转换后的参数
 
                 return Observable.from(strings); // 映射字符串
             }

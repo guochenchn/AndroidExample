@@ -47,4 +47,8 @@
         <item name="android:orientation">vertical</item>
     </style>
 
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/app_color_background</item>
+        <item name="android:textColor">@color/app_primary_color_dark</item>
+    </style>
 </resources>
