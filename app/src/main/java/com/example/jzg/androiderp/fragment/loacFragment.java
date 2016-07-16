@@ -40,7 +40,7 @@ public class loacFragment extends Fragment implements XRecyclerView.LoadingListe
         emptyview = View.inflate(getActivity(), R.layout.empty_layout, null);
          listdatas = Data.findAll(Data.class);
         if (listdatas != null) {
-            initData();
+            initData();//初始化数据
             initView(view);//初始化View
         }
         return view;
