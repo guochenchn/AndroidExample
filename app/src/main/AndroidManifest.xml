@@ -83,6 +83,7 @@
         <activity android:name=".ui.PopActivity"></activity>
         <activity android:name=".ui.TableActivity"></activity>
         <activity android:name=".ui.HListViewActivity"></activity>
+        <activity android:name=".ui.EventBusActivity"></activity>
         <activity
             android:name=".ui.CollapsingtoolbarActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>

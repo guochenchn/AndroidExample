@@ -84,11 +84,14 @@ public class TableActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
-        AppraisersData contentData = DataUtil.getContentData(this);
+        AppraisersData contentData = DataUtil.getContentDatas(this);
         if (contentData != null) {
+            AppraisersDatas.clear();
             AppraisersDatas.addAll(contentData.getData());
             tableLeftAdapter.notifyDataSetChanged();
             tableRightAdapter.notifyDataSetChanged();
+//            contentListViewLeft.setAdapter(tableLeftAdapter);
+//            contentListViewRight.setAdapter(tableRightAdapter);
         }
     }
 }

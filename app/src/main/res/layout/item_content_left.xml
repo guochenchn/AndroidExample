@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    
-    android:orientation="horizontal" >
-
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
     <View
         android:layout_width="0.5px"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:background="#B8B8B8"
         android:visibility="visible" />
 
@@ -18,7 +20,13 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:text=""
+        android:text="啊啊啊"
       />
-
+</LinearLayout>
+    <View
+        android:id="@+id/lines"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#B8B8B8"
+        android:visibility="gone" />
 </LinearLayout>

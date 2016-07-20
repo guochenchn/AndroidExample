@@ -17,7 +17,7 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+       />
 
     <View
         android:layout_width="0.5px"
@@ -32,7 +32,7 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+         />
 
     <View
         android:layout_width="0.5px"
@@ -47,7 +47,7 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+        />
 
     <View
         android:layout_width="0.5px"
@@ -62,7 +62,7 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+      />
 
     <View
         android:layout_width="0.5px"
@@ -77,7 +77,7 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+      />
 
     <View
         android:layout_width="0.5px"
@@ -92,13 +92,16 @@
         android:focusable="false"
         android:gravity="center"
         android:lines="3"
-        android:textColor="@color/black_font" />
+       />
 
     <View
+        android:id="@+id/lines"
         android:layout_width="0.5px"
         android:layout_height="fill_parent"
-        android:background="#B8B8B8"
+        android:layout_marginRight="5dp"
+        android:background="@color/black_font"
         android:visibility="visible" />
+
 
     <!--<TextView-->
         <!--android:id="@+id/tv_item7"-->

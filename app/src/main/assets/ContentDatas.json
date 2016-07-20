@@ -1,0 +1,36 @@
+{
+    "Data": [
+        {
+            "Name": "冯中帅",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "冯中帅PG2",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        },
+        {
+            "Name": "李赞PG1",
+            "CityName": "郑州",
+            "SixCount": 0,
+            "EighteenCount": 0,
+            "OffLineCount": 0,
+            "RejectCount": 0,
+            "ConfirmCount": 0,
+            "SignCount": 0
+        }
+    ],
+    "status": 100,
+    "msg": "成功"
+}

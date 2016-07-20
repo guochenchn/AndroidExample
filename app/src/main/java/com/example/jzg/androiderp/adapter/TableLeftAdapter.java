@@ -46,10 +46,16 @@ public class TableLeftAdapter extends BaseAdapter {
         if (convertView == null) {
             viewHolder = new ViewHolder();
             convertView = View.inflate(context, R.layout.item_content_left, null);
+            viewHolder.lines = convertView.findViewById(R.id.lines);
             viewHolder.tv_item = (TextView)convertView.findViewById(R.id.tv_item);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder)convertView.getTag();
+        }
+        if(position+1==datas.size()){
+            viewHolder.lines.setVisibility(View.VISIBLE);
+        }else{
+            viewHolder.lines.setVisibility(View.GONE);
         }
         viewHolder.tv_item.setText(datas.get(position).getName());
         return convertView;
@@ -57,5 +63,6 @@ public class TableLeftAdapter extends BaseAdapter {
 
 class ViewHolder {
     TextView tv_item;
+    View lines;
 }
 }

@@ -51,11 +51,26 @@ public class TableRightAdapter extends BaseAdapter{
             viewHolder.tv_item4 = (TextView)convertView.findViewById(R.id.tv_item4);
             viewHolder.tv_item5 = (TextView)convertView.findViewById(R.id.tv_item5);
             viewHolder.tv_item6 = (TextView)convertView.findViewById(R.id.tv_item6);
+            viewHolder.lines = convertView.findViewById(R.id.lines);
 //            viewHolder.tv_item7 = (TextView)convertView.findViewById(R.id.tv_item7);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder)convertView.getTag();
         }
+//        if(position+1==datas.size()){
+////            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(1,LinearLayout.LayoutParams.MATCH_PARENT);
+////            params.setMargins(0,0,1000,0);
+////            viewHolder.lines.setLayoutParams(params);
+//            viewHolder.lines.setVisibility(View.GONE);
+//            viewHolder.lines1.setVisibility(View.VISIBLE);
+//        }else{
+////            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(1,LinearLayout.LayoutParams.MATCH_PARENT);
+////            params.setMargins(0,0,0,0);
+////            viewHolder.lines.setLayoutParams(params);
+////            viewHolder.lines.setVisibility(View.GONE);
+//            viewHolder.lines.setVisibility(View.VISIBLE);
+//            viewHolder.lines1.setVisibility(View.VISIBLE);
+//        }
 //        Product product = objects.get(position);
         viewHolder.tv_item1.setText(datas.get(position).getCityName() + "");
         viewHolder.tv_item2.setText(datas.get(position).getConfirmCount() + "");
@@ -68,6 +83,7 @@ public class TableRightAdapter extends BaseAdapter{
     }
     class ViewHolder {
         TextView tv_item1, tv_item2, tv_item3, tv_item4, tv_item5, tv_item6, tv_item7;
+        View lines;
     }
 
 }

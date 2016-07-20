@@ -20,13 +20,13 @@ public class MyListView extends ListView {
         super(context, attrs, defStyleAttr);
     }
 
-    @Override
+
 
     /**
      * 重写该方法，ScrollView中嵌套ListView
      * 达到使ListView自适应高度
      */
-
+    @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int expandSpec = MeasureSpec.makeMeasureSpec(Integer.MAX_VALUE >> 2, MeasureSpec.AT_MOST);
         super.onMeasure(widthMeasureSpec, expandSpec);

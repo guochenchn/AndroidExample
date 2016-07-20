@@ -44,6 +44,20 @@ public class DataUtil {
         }
         return null;
     }
+    public static AppraisersData getContentDatas (Context context) {
+        try {
+            InputStream in = context.getResources().getAssets().open("ContentDatas.json");//打开assets文件
+            String res = convertStreamToString(in);
+            Gson gson = new Gson();
+            //将字符串转换为集合对象
+//            List<CityItem> list = gson.fromJson(res, new TypeToken<ArrayList<CityItem>>(){}.getType());
+            AppraisersData appraisersData = gson.fromJson(res,AppraisersData.class);
+            return appraisersData;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     /**
      * 读取文件
