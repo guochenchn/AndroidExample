@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.jzg.androiderp.vo.MyEvent;
+import com.example.jzg.androiderp.vo.StickyEvent;
 import com.orhanobut.logger.Logger;
 
 import org.greenrobot.eventbus.EventBus;
@@ -25,6 +26,7 @@ import java.util.List;
 public class ItemListFragment extends ListFragment {
     private List<String> datas = new ArrayList<>();
     private List<MyEvent> dataMessage = new ArrayList<>();
+    private List<StickyEvent> stickyMessage = new ArrayList<>();
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +50,10 @@ public class ItemListFragment extends ListFragment {
         dataMessage.add(new MyEvent("fragment2"));
         dataMessage.add(new MyEvent("fragment3"));
         dataMessage.add(new MyEvent("fragment4"));
+        stickyMessage.add(new StickyEvent("stickyfragment1"));
+        stickyMessage.add(new StickyEvent("stickyfragment2"));
+        stickyMessage.add(new StickyEvent("stickyfragment3"));
+        stickyMessage.add(new StickyEvent("stickyfragment4"));
 
         setListAdapter(new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_activated_1,
@@ -70,5 +76,9 @@ public class ItemListFragment extends ListFragment {
 
         EventBus.getDefault().post(dataMessage.get(position));
         EventBus.getDefault().post(datas.get(position));
+        /**
+         * 发送一个粘性事件,当一个activity没有被注册的时候找个事件会保存在内存中,当找个activity注册了,就会调用相应的方法
+         */
+        EventBus.getDefault().postSticky(stickyMessage.get(position));
     }
 }

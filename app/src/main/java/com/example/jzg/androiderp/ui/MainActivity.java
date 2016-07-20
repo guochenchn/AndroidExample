@@ -41,6 +41,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     Button button11;
     @BindView(R.id.button12)
     Button button12;
+    @BindView(R.id.button13)
+    Button button13;
 
 
     @Override
@@ -68,7 +70,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @OnClick({R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5,
             R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10
-            , R.id.button11,R.id.button12})
+            , R.id.button11, R.id.button12,R.id.button13})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button1:
@@ -117,6 +119,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.button12:
                 Intent intent11 = new Intent(MainActivity.this, EventBusActivity.class);
                 startActivity(intent11);
+                break;
+            case R.id.button13:
+                Intent intent12 = new Intent(MainActivity.this, StickyActivity.class);
+                startActivity(intent12);
                 break;
         }
     }
