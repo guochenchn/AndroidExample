@@ -85,6 +85,7 @@
         <activity android:name=".ui.HListViewActivity"></activity>
         <activity android:name=".ui.EventBusActivity"></activity>
         <activity android:name=".ui.StickyActivity"></activity>
+        <activity android:name=".ui.RealmJavaActivity"></activity>
         <activity
             android:name=".ui.CollapsingtoolbarActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>

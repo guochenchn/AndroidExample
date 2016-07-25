@@ -148,6 +148,16 @@
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             />
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/loginbtn"
+            android:text="测试Realm Java"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            />
     </LinearLayout>
 </ScrollView>
 

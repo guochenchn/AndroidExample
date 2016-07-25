@@ -42,6 +42,8 @@ import cn.finalteam.galleryfinal.CoreConfig;
 import cn.finalteam.galleryfinal.FunctionConfig;
 import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.ThemeConfig;
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
 import okhttp3.Cookie;
 import okhttp3.CookieJar;
 import okhttp3.HttpUrl;
@@ -83,7 +85,14 @@ public class AppContext extends Application {
         initCmage();
         initFresco();
         initPic();
+        initRealm();
 
+    }
+
+    private void initRealm() {
+        RealmConfiguration config = new RealmConfiguration.Builder(this).build();
+        Realm.deleteRealm(config);
+        Realm.setDefaultConfiguration(config);
     }
 
     private void initFresco() {
