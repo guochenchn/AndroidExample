@@ -45,31 +45,38 @@ public class RealmJavaActivity extends BaseActivity {
         setContentView(R.layout.activity_realm);
         ButterKnife.bind(this);
         realm = Realm.getDefaultInstance();
-        initData();
-        initView();
+//        initData();
+//        initView();
         initData1();
-        initData2();
+//        initData2();
     }
 
     private void initData1() {
+
         realm2 = Realm.getDefaultInstance();
         Person person = new Person();
-//        Person person = realm1.createObject(Person.class);
+//        Person person = realm2.createObject(Person.class);
+
+
         person.setName("姚明");
         person.setUserName("yaoming");
-        person.setAge(32);
-
+        person.setAge(1);
+        realm2.beginTransaction();
+        realm2.commitTransaction();
         // 查找Dog数据库中字段age小于2的所有数据
         RealmResults<Person> puppies = realm2.where(Person.class).lessThan("age", 2).findAll();
         puppies.size(); // => 此时还没有插入存储，因此为0
 
 // 保存这个数据
-        realm2.beginTransaction();
-        realm2.copyToRealm(person);
-        realm2.commitTransaction();
+
+//        realm2.commitTransaction();
 
 // 查询是自动同步更新的
-        puppies.size(); // => 1
+
+        Person person1 = realm2.copyToRealm(person);
+        realm2.commitTransaction();
+        RealmResults<Person> puppies1 = realm2.where(Person.class).lessThan("age", 2).findAll();
+        puppies1.size(); // => 1
     }
 
     private void initData2() {
@@ -80,6 +87,7 @@ public class RealmJavaActivity extends BaseActivity {
                 // 开始查询和修改数据
                 Person person = realm.where(Person.class).equalTo("name", "科比").findFirst();
                 person.setAge(42);
+                //子线程
                 Logger.e("executeTransactionAsync"+person.toString());
 
             }
@@ -90,6 +98,7 @@ public class RealmJavaActivity extends BaseActivity {
                 //如果你之前得到Person了这里就不用在查询得到了
               Person person =   realm1.where(Person.class).equalTo("name","科比").findFirst();
                 RealmResults<Person> persons = realm2.where(Person.class).equalTo("name", "科比").findAll();
+                //主线程
                 Logger.e( "onSuccess"+person.toString());
             }
         } );
@@ -118,7 +127,7 @@ public class RealmJavaActivity extends BaseActivity {
 
                     @Override
                     public void onError(Throwable e) {
-                        Logger.e("错误+e");
+                        Logger.e("错误+"+e);
 
                     }
 
